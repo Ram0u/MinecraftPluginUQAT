@@ -1,0 +1,27 @@
+name: SimpleEconomy
+main: com.gmail.charlesantlord.simpleeconomy.SimpleEconomy
+version: 1.16.1
+api-version: 1.16
+
+commands:
+  se:
+    description: Access the SimpleEconomy actions menu
+    usage: /se
+    permission: SimpleEconomy.se
+    permission-message: You don't have permission to use this command.
+    default: true
+  setpresident:
+    description: (ADMINS ONLY) Set a president
+    usage: /setpresident [player name]
+    permission: SimpleEconomy.setpresident
+    permission-message: You don't have permission to use this command.
+  finishelections:
+    description: (ADMINS ONLY) finish elections and get results
+    usage: /finishelections
+    permission: SimpleEconomy.finishelections
+    permission-message: You don't have permission to use this command.
+  startelections:
+    description: (ADMINS ONLY) start elections
+    usage: /startelections
+    permission: SimpleEconomy.startelections
+    permission-message: You don't have permission to use this command.
